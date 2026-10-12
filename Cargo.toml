@@ -1,0 +1,15 @@
+[package]
+name = "rushdown-toc"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Collect the headings of a rushdown document into a table of contents."
+license = "MIT"
+repository = "https://github.com/NicolasChagnet/rushdown-toc"
+keywords = ["toc", "markdown", "headings", "table-of-contents"]
+categories = ["text-processing", "web-programming"]
+documentation = "https://docs.rs/rushdown-toc"
+
+[dependencies]
+rushdown = "0.18.0"
+serde = { version = "1.0.229", features = ["derive"] }
